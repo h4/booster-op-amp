@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name booster-op-amp)(type KiCad)(uri ${KIPRJMOD}/booster-op-amp.pretty)(options "")(descr ""))
+)

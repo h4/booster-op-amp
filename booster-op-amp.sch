@@ -1,0 +1,481 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Clean Booster"
+Date "2020-08-09"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_Small R1
+U 1 1 5F3135A4
+P 4500 1775
+F 0 "R1" H 4559 1821 50  0000 L CNN
+F 1 "10K" H 4559 1730 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4500 1775 50  0001 C CNN
+F 3 "~" H 4500 1775 50  0001 C CNN
+	1    4500 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5F3140CD
+P 4500 2150
+F 0 "R2" H 4559 2196 50  0000 L CNN
+F 1 "10K" H 4559 2105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4500 2150 50  0001 C CNN
+F 3 "~" H 4500 2150 50  0001 C CNN
+	1    4500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C1
+U 1 1 5F314704
+P 4950 2150
+F 0 "C1" H 5038 2196 50  0000 L CNN
+F 1 "47u" H 5038 2105 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4950 2150 50  0001 C CNN
+F 3 "~" H 4950 2150 50  0001 C CNN
+	1    4950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U1
+U 2 1 5F314B76
+P 6300 4125
+F 0 "U1" H 6300 4492 50  0000 C CNN
+F 1 "TL072" H 6300 4401 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 6300 4125 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6300 4125 50  0001 C CNN
+	2    6300 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U1
+U 1 1 5F317BFB
+P 5125 4125
+F 0 "U1" H 5125 4492 50  0000 C CNN
+F 1 "TL072" H 5125 4401 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 5125 4125 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5125 4125 50  0001 C CNN
+	1    5125 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U1
+U 3 1 5F319FC4
+P 6175 1925
+F 0 "U1" H 6133 1971 50  0000 L CNN
+F 1 "TL072" H 6133 1880 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 6175 1925 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6175 1925 50  0001 C CNN
+	3    6175 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 5F31C54C
+P 5125 4550
+F 0 "R5" V 4929 4550 50  0000 C CNN
+F 1 "300K" V 5020 4550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5125 4550 50  0001 C CNN
+F 3 "~" H 5125 4550 50  0001 C CNN
+	1    5125 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 5F31CE86
+P 6525 4850
+F 0 "R7" V 6329 4850 50  0000 C CNN
+F 1 "10K" V 6420 4850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6525 4850 50  0001 C CNN
+F 3 "~" H 6525 4850 50  0001 C CNN
+	1    6525 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 5F31D917
+P 7200 4125
+F 0 "R8" V 7004 4125 50  0000 C CNN
+F 1 "1K" V 7095 4125 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7200 4125 50  0001 C CNN
+F 3 "~" H 7200 4125 50  0001 C CNN
+	1    7200 4125
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R9
+U 1 1 5F31DCA4
+P 7550 4425
+F 0 "R9" H 7491 4379 50  0000 R CNN
+F 1 "100K" H 7491 4470 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 7550 4425 50  0001 C CNN
+F 3 "~" H 7550 4425 50  0001 C CNN
+	1    7550 4425
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5F31E3DC
+P 4625 4225
+F 0 "R4" V 4429 4225 50  0000 C CNN
+F 1 "200K" V 4520 4225 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4625 4225 50  0001 C CNN
+F 3 "~" H 4625 4225 50  0001 C CNN
+	1    4625 4225
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5F31E79E
+P 4100 4525
+F 0 "R3" H 4041 4479 50  0000 R CNN
+F 1 "1M" H 4041 4570 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4100 4525 50  0001 C CNN
+F 3 "~" H 4100 4525 50  0001 C CNN
+	1    4100 4525
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5F31EE19
+P 5675 4550
+F 0 "R6" V 5479 4550 50  0000 C CNN
+F 1 "20K" V 5570 4550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5675 4550 50  0001 C CNN
+F 3 "~" H 5675 4550 50  0001 C CNN
+	1    5675 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5F31F9C7
+P 4300 4225
+F 0 "C2" V 4071 4225 50  0000 C CNN
+F 1 "22n" V 4162 4225 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 4300 4225 50  0001 C CNN
+F 3 "~" H 4300 4225 50  0001 C CNN
+	1    4300 4225
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5F31FE6B
+P 5125 4900
+F 0 "C3" V 4896 4900 50  0000 C CNN
+F 1 "47p" V 4987 4900 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 5125 4900 50  0001 C CNN
+F 3 "~" H 5125 4900 50  0001 C CNN
+	1    5125 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5F320517
+P 6350 4550
+F 0 "C4" V 6121 4550 50  0000 C CNN
+F 1 "100p" V 6212 4550 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 6350 4550 50  0001 C CNN
+F 3 "~" H 6350 4550 50  0001 C CNN
+	1    6350 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP_Small C5
+U 1 1 5F320AAF
+P 6850 4125
+F 0 "C5" V 7075 4125 50  0000 C CNN
+F 1 "1u" V 6984 4125 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 6850 4125 50  0001 C CNN
+F 3 "~" H 6850 4125 50  0001 C CNN
+	1    6850 4125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5F321BE3
+P 4500 2475
+F 0 "#PWR0101" H 4500 2225 50  0001 C CNN
+F 1 "GND" H 4505 2302 50  0000 C CNN
+F 2 "" H 4500 2475 50  0001 C CNN
+F 3 "" H 4500 2475 50  0001 C CNN
+	1    4500 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F321C28
+P 4950 2475
+F 0 "#PWR0102" H 4950 2225 50  0001 C CNN
+F 1 "GND" H 4955 2302 50  0000 C CNN
+F 2 "" H 4950 2475 50  0001 C CNN
+F 3 "" H 4950 2475 50  0001 C CNN
+	1    4950 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5F321E3D
+P 6075 2475
+F 0 "#PWR0103" H 6075 2225 50  0001 C CNN
+F 1 "GND" H 6080 2302 50  0000 C CNN
+F 2 "" H 6075 2475 50  0001 C CNN
+F 3 "" H 6075 2475 50  0001 C CNN
+	1    6075 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F3223D7
+P 4100 4825
+F 0 "#PWR0104" H 4100 4575 50  0001 C CNN
+F 1 "GND" H 4105 4652 50  0000 C CNN
+F 2 "" H 4100 4825 50  0001 C CNN
+F 3 "" H 4100 4825 50  0001 C CNN
+	1    4100 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F322795
+P 7550 4775
+F 0 "#PWR0105" H 7550 4525 50  0001 C CNN
+F 1 "GND" H 7555 4602 50  0000 C CNN
+F 2 "" H 7550 4775 50  0001 C CNN
+F 3 "" H 7550 4775 50  0001 C CNN
+	1    7550 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR0106
+U 1 1 5F323150
+P 4500 1450
+F 0 "#PWR0106" H 4500 1300 50  0001 C CNN
+F 1 "+9V" H 4515 1623 50  0000 C CNN
+F 2 "" H 4500 1450 50  0001 C CNN
+F 3 "" H 4500 1450 50  0001 C CNN
+	1    4500 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR0107
+U 1 1 5F32329D
+P 6075 1425
+F 0 "#PWR0107" H 6075 1275 50  0001 C CNN
+F 1 "+9V" H 6090 1598 50  0000 C CNN
+F 2 "" H 6075 1425 50  0001 C CNN
+F 3 "" H 6075 1425 50  0001 C CNN
+	1    6075 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1450 4500 1675
+Wire Wire Line
+	4500 1875 4500 1950
+Wire Wire Line
+	4500 2250 4500 2475
+Wire Wire Line
+	4500 1950 4950 1950
+Wire Wire Line
+	4950 1950 4950 2050
+Connection ~ 4500 1950
+Wire Wire Line
+	4500 1950 4500 2050
+Wire Wire Line
+	4950 2250 4950 2475
+Wire Wire Line
+	4950 1950 5325 1950
+Connection ~ 4950 1950
+Wire Wire Line
+	6075 2225 6075 2475
+Wire Wire Line
+	6075 1425 6075 1625
+Wire Wire Line
+	4200 4225 4100 4225
+Wire Wire Line
+	4400 4225 4525 4225
+Wire Wire Line
+	4725 4225 4775 4225
+Wire Wire Line
+	4100 4425 4100 4225
+Connection ~ 4100 4225
+Wire Wire Line
+	4100 4225 3825 4225
+Wire Wire Line
+	4100 4625 4100 4825
+Wire Wire Line
+	4750 3600 4750 4025
+Wire Wire Line
+	4750 4025 4825 4025
+Wire Wire Line
+	6000 4025 5900 4025
+Wire Wire Line
+	5900 4025 5900 3575
+Wire Wire Line
+	4775 4225 4775 4550
+Wire Wire Line
+	4775 4900 5025 4900
+Connection ~ 4775 4225
+Wire Wire Line
+	4775 4225 4825 4225
+Wire Wire Line
+	5425 4125 5475 4125
+Wire Wire Line
+	5475 4125 5475 4550
+Wire Wire Line
+	5475 4900 5225 4900
+Wire Wire Line
+	5025 4550 4775 4550
+Connection ~ 4775 4550
+Wire Wire Line
+	4775 4550 4775 4900
+Wire Wire Line
+	5225 4550 5475 4550
+Connection ~ 5475 4550
+Wire Wire Line
+	5475 4550 5475 4900
+Wire Wire Line
+	5475 4550 5575 4550
+Wire Wire Line
+	5775 4550 5900 4550
+Wire Wire Line
+	5900 4550 5900 4225
+Wire Wire Line
+	5900 4225 6000 4225
+Wire Wire Line
+	5900 4550 6250 4550
+Connection ~ 5900 4550
+Wire Wire Line
+	6450 4550 6675 4550
+Wire Wire Line
+	6675 4550 6675 4125
+Wire Wire Line
+	6675 4125 6600 4125
+Wire Wire Line
+	6675 4125 6750 4125
+Connection ~ 6675 4125
+Wire Wire Line
+	6675 4550 6675 4850
+Wire Wire Line
+	6675 4850 6625 4850
+Connection ~ 6675 4550
+$Comp
+L Device:R_POT_Small RV1
+U 1 1 5F32CB63
+P 6200 4850
+F 0 "RV1" V 6003 4850 50  0000 C CNN
+F 1 "50KB" V 6094 4850 50  0000 C CNN
+F 2 "Stompbox_Parts:Potentiometer_Alpha_RV16AF_Single_Vertical_PCB_Mount" H 6200 4850 50  0001 C CNN
+F 3 "~" H 6200 4850 50  0001 C CNN
+	1    6200 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 4550 5900 4850
+Wire Wire Line
+	5900 4850 5975 4850
+Wire Wire Line
+	6300 4850 6425 4850
+Wire Wire Line
+	6200 4950 6200 5000
+Wire Wire Line
+	6200 5000 5975 5000
+Wire Wire Line
+	5975 5000 5975 4850
+Connection ~ 5975 4850
+Wire Wire Line
+	5975 4850 6100 4850
+Wire Wire Line
+	6950 4125 7100 4125
+Wire Wire Line
+	7300 4125 7550 4125
+Wire Wire Line
+	7550 4325 7550 4125
+Connection ~ 7550 4125
+Wire Wire Line
+	7550 4125 7825 4125
+Wire Wire Line
+	7550 4525 7550 4775
+Text Label 5325 1950 2    50   ~ 0
+VREF
+Text Label 4750 3600 3    50   ~ 0
+VREF
+Text Label 5900 3575 3    50   ~ 0
+VREF
+$Comp
+L Connector:Conn_01x01_Female J1
+U 1 1 5F3354F5
+P 3625 4225
+F 0 "J1" H 3653 4201 50  0000 L CNN
+F 1 "IN" H 3653 4110 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 3625 4225 50  0001 C CNN
+F 3 "~" H 3625 4225 50  0001 C CNN
+	1    3625 4225
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J2
+U 1 1 5F335944
+P 8025 4125
+F 0 "J2" H 8053 4101 50  0000 L CNN
+F 1 "OUT" H 8053 4010 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1mm" H 8025 4125 50  0001 C CNN
+F 3 "~" H 8025 4125 50  0001 C CNN
+	1    8025 4125
+	1    0    0    -1  
+$EndComp
+Text Label 3825 4225 0    50   ~ 0
+IN
+$Comp
+L Connector:Conn_01x02_Female J3
+U 1 1 5F3445C4
+P 7375 1900
+F 0 "J3" H 7403 1876 50  0000 L CNN
+F 1 "PWR" H 7403 1785 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P3.81mm_Drill1mm" H 7375 1900 50  0001 C CNN
+F 3 "~" H 7375 1900 50  0001 C CNN
+	1    7375 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5F3445CF
+P 7075 2150
+F 0 "#PWR02" H 7075 1900 50  0001 C CNN
+F 1 "GND" H 7080 1977 50  0000 C CNN
+F 2 "" H 7075 2150 50  0001 C CNN
+F 3 "" H 7075 2150 50  0001 C CNN
+	1    7075 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7175 2000 7075 2000
+Wire Wire Line
+	7075 2000 7075 2150
+$Comp
+L power:+9V #PWR01
+U 1 1 5F346088
+P 7075 1800
+F 0 "#PWR01" H 7075 1650 50  0001 C CNN
+F 1 "+9V" H 7090 1973 50  0000 C CNN
+F 2 "" H 7075 1800 50  0001 C CNN
+F 3 "" H 7075 1800 50  0001 C CNN
+	1    7075 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7075 1800 7075 1900
+Wire Wire Line
+	7075 1900 7175 1900
+Text Label 7825 4125 2    50   ~ 0
+OUT
+$EndSCHEMATC

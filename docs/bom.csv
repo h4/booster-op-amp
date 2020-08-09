@@ -1,0 +1,18 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"J2";"SolderWirePad_1x01_Drill1mm";1;"OUT";;;
+2;"J1";"SolderWirePad_1x01_Drill1mm";1;"IN";;;
+3;"J3";"SolderWirePad_1x02_P3.81mm_Drill1mm";1;"PWR";;;
+4;"U1";"DIP-8_W7.62mm_LongPads";1;"TL072";;;
+5;"RV1";"Potentiometer_Alpha_RV16AF_Single_Vertical_PCB_Mount";1;"50KB";;;
+6;"R9";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"100K";;;
+7;"R8";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"1K";;;
+8;"R7,R2,R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";3;"10K";;;
+9;"R6";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"20K";;;
+10;"R5";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"300K";;;
+11;"R4";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"200K";;;
+12;"R3";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"1M";;;
+13;"C5";"CP_Radial_D5.0mm_P2.50mm";1;"1u";;;
+14;"C4";"C_Disc_D4.3mm_W1.9mm_P5.00mm";1;"100p";;;
+15;"C3";"C_Disc_D4.3mm_W1.9mm_P5.00mm";1;"47p";;;
+16;"C2";"C_Rect_L7.0mm_W2.5mm_P5.00mm";1;"22n";;;
+17;"C1";"CP_Radial_D5.0mm_P2.50mm";1;"47u";;;
